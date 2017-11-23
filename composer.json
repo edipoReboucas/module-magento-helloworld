@@ -1,0 +1,10 @@
+{
+    "name": "codemakers/module-helloword",
+    "autoload": {
+        "psr-4": { "CodeMakers\\HelloWorld\\": "" },
+        "files": ["registration.php"]
+    },
+    "require": {
+        "php-di/php-di": "5^"
+    }
+}
