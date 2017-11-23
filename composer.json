@@ -1,10 +1,11 @@
 {
     "name": "codemakers/module-helloword",
+    "type": "magento2-module",
     "autoload": {
         "psr-4": { "CodeMakers\\HelloWorld\\": "" },
         "files": ["registration.php"]
     },
     "require": {
-        "php-di/php-di": "5^"
+        "php-di/php-di": "^5"
     }
 }
