@@ -1,6 +1,5 @@
 {
     "name": "codemakers/module-helloword",
-    "type": "magento2-module",
     "autoload": {
         "psr-4": { "CodeMakers\\HelloWorld\\": "" },
         "files": ["registration.php"]
